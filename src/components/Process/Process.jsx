@@ -52,7 +52,7 @@ const Process = () => {
         <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-8 lg:gap-6">
           {steps.map((item) => (
             <div key={item.id} className="flex flex-col">
-              {/* number bubble */}
+              
               <span className="mx-auto flex justify-center items-center rounded-full bg-zinc-800 text-white outline-[3px] outline-offset-4 outline-zinc-800 outline-dotted w-14 h-14 md:w-16 md:h-16 text-5xl md:text-6xl">
                 {item.number}
               </span>

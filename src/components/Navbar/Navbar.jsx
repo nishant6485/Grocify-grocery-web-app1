@@ -110,7 +110,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile menu overlay */}
+      
       <div
         onClick={closeMenu}
         className={`md:hidden fixed inset-0 top-16 bg-black/40 transition-opacity duration-300 ${
@@ -118,7 +118,7 @@ const Navbar = () => {
         }`}
       />
 
-      {/* Mobile menu panel */}
+      
       <div
         className={`md:hidden fixed top-16 left-0 right-0 bg-white shadow-xl transition-transform duration-300 origin-top ${
           showMenu ? "scale-y-100" : "scale-y-0"

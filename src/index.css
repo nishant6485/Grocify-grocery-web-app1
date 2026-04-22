@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* ===== Global base ===== */
+
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
@@ -21,14 +21,14 @@ body {
   line-height: 1.5;
 }
 
-/* Images never overflow their container by default */
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* Remove default button styling quirks on iOS */
+
 button {
   -webkit-appearance: none;
   appearance: none;
