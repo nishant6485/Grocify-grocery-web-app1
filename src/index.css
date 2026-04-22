@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* ===== Global base ===== */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Arial, sans-serif;
+  text-transform: capitalize;
+  color: #27272a; /* zinc-800 */
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Images never overflow their container by default */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Remove default button styling quirks on iOS */
+button {
+  -webkit-appearance: none;
+  appearance: none;
+}
